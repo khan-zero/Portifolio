@@ -1,0 +1,89 @@
+/* css/light-mode.css */
+
+body.light-mode {
+    --bg-dark: #f0f2f5;
+    --primary-color: #7b4397;
+    --secondary-color: #a45398;
+    --text-light: #12121e;
+    --text-muted: #4a5568;
+    --shadow-subtle: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .main-header {
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode h2, body.light-mode .logo a, body.light-mode .main-nav ul li a:hover, body.light-mode .social-link:hover {
+    color: var(--primary-color);
+}
+
+body.light-mode h3, body.light-mode .main-nav ul li a, body.light-mode .neon-input, body.light-mode .skill-category ul li {
+    color: var(--text-light);
+}
+
+body.light-mode .bio-summary, body.light-mode .tagline, body.light-mode .hero-content .title, body.light-mode .neon-input::placeholder, body.light-mode .main-footer {
+    color: var(--text-muted);
+}
+
+body.light-mode .skill-category, body.light-mode .project-card {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+body.light-mode .skill-category:hover, body.light-mode .project-card:hover {
+    border-color: var(--primary-color);
+}
+
+body.light-mode .skill-category h3, body.light-mode .project-card .tech-stack, body.light-mode .social-link {
+    color: var(--secondary-color);
+}
+
+body.light-mode .neon-btn {
+    background: var(--secondary-color);
+    color: var(--text-light);
+}
+
+body.light-mode .neon-btn:hover {
+    background: var(--primary-color);
+}
+
+body.light-mode .primary-btn {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+}
+
+body.light-mode .secondary-btn {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+body.light-mode .secondary-btn:hover {
+    background: rgba(123, 67, 151, 0.1);
+}
+
+body.light-mode .link-btn.live {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+}
+
+body.light-mode .link-btn.code {
+    background: transparent;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+body.light-mode .neon-input {
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .neon-input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 8px rgba(123, 67, 151, 0.5);
+}
+
+body.light-mode .main-footer {
+    background: rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
